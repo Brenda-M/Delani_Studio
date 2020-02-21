@@ -12,14 +12,17 @@
     margin: 40px;
 }  
 
+.portfolio{
+    margin-bottom: 80px;
+}
 
 .work1 {
     background-image: url("../images/portfolio/work1.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     border-color: white;
-    height: 250px;
-    margin-left: -1px;
+    height: 200px;
+    width: 130px;
     
 }
 
@@ -27,7 +30,8 @@
     background-image: url("../images/portfolio/work2.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 200px;
+    width: 130px;
     
 }
 
@@ -35,7 +39,8 @@
     background-image: url("../images/portfolio/work3.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 200px;
+    width: 130px;
     
     
 }
@@ -44,7 +49,8 @@
     background-image: url("../images/portfolio/work4.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 200px;
+    width: 130px;
    
 }
 
@@ -52,7 +58,8 @@
     background-image: url("../images/portfolio/work5.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 200px;
+    width: 130px;
   
 }
 
@@ -60,7 +67,8 @@
     background-image: url("../images/portfolio/work6.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 200px;
+    width: 130px;
   
   
 }
@@ -69,7 +77,8 @@
     background-image: url("../images/portfolio/work7.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 200px;
+    width: 130px;
    
    
 }
@@ -78,10 +87,13 @@
     background-image: url("../images/portfolio/work8.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 250px;
+    height: 200px;
+    width: 130px;
 
 }
-
+.port{
+    margin-bottom: 40px;
+}
 
 
 #slogan{
@@ -100,3 +112,9 @@
     color: white;
 }
 
+.contact-us{
+    background-image: url("../images/backgrounds/c_image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+}
