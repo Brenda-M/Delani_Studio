@@ -12,6 +12,60 @@
     color: white;   
 }
 
+.work1 {
+    background-image: url("../images/portfolio/work1.jpg");
+    height: 250px;
+    margin: 10px;
+    
+}
+
+.work2 {
+    background-image: url("../images/portfolio/work2.jpg");
+    height: 250px;
+    margin: 10px;
+}
+
+.work3 {
+    background-image: url("../images/portfolio/work3.jpg");
+    height: 250px;
+    margin: 10px;
+    
+}
+
+.work4 {
+    background-image: url("../images/portfolio/work4.jpg");
+    height: 250px;
+    margin: 10px;
+   
+}
+
+.work5 {
+    background-image: url("../images/portfolio/work5.jpg");
+    height: 250px;
+    margin: 10px;
+}
+
+.work6 {
+    background-image: url("../images/portfolio/work6.jpg");
+    height: 250px;
+    margin: 10px;
+  
+}
+
+.work7 {
+    background-image: url("../images/portfolio/work7.jpg");
+    height: 250px;
+    margin: 10px;
+   
+}
+
+.work8 {
+    background-image: url("../images/portfolio/work8.jpg");
+    height: 250px;
+    margin: 10px;
+    
+}
+
 
 
 #slogan{

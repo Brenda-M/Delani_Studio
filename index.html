@@ -7,8 +7,9 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href= "css/styles.css" rel="stylesheet" type="text/css">
     <title>Delani Studio</title>
-    <script src='main.js'></script>
+    <script src="scripts.js"></script>
 </head>
+
 <body>
 
     <div class = "container-fluid">
@@ -16,26 +17,24 @@
             <img src = "images/logo/logo.png" alt = "logo">
             <h1 class = "title"> WELCOME <br> TO DELANI STUDIO</h1>
             <h6 id = "slogan"> AMAZING PEOPLE ARE MAKING ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h6>
-            <img src = "images/mouse_click.png" alt = "mouse" id = "mouse">
-            
+            <img src = "images/mouse_click.png" alt = "mouse" id = "mouse">  
         </div>
     </div>
 
     <section class ="about-us">
         <div class="container">
             <div class="row">
-            <div class= "col-md-12">
-                <h1>ABOUT US</h1>
-                <p>When you work with us, you are part of a team of committed collaborators. All aspects of our 
+                <div class= "col-md-12">
+                    <h1>ABOUT US</h1>
+                    <p>When you work with us, you are part of a team of committed collaborators. All aspects of our 
                         software development process are intergrated, interactive and agile <br>
                         Our approach unifies design development and product management to create exceptioal products <br>
                         We start each project by understanding your business goals, the user's need and the product requirements 
                         <br> Then we help translate them into effective and elegant solutions
-                </p>
-            </div>
+                    </p>
+                </div>
 
             </div>
-
         </div>
     </section>
 
@@ -57,83 +56,111 @@
         </div>
     </section>
 
-    <section class = "what-we-do">
-        <div class="container">
+    <div class = "what-we-do">
+        
+        <h1> WHAT WE DO</h1>
+
+        <div class= "container">
             <div class="row">
-            <div class= "col-md-12">
-                <h1>WHAT WE DO</h1>
-                <img src = "images/services_icons/design_icon.png" alt ="design-logo">
-                <img src = "images/services_icons/dev_icon.png" alt = "development-logo">
-                <img src = "images/services_icons/product_icon.png" alt ="product-management-logo">
-            </div>
+
+                <div class = "col-md-4">
+                    <img src = "images/services_icons/design_icon.png" alt ="design-logo">
+                </div>
+
+                <div class = "col-md-4">
+                    <img src = "images/services_icons/dev_icon.png" alt = "development-logo">
+                </div>
+
+                <div class = "col-md-4">
+                    <img src = "images/services_icons/product_icon.png" alt ="product-management-logo">
+                </div>
 
             </div>
+                
+            </div>
+
         </div>
 
-    </section>
+    </div>
 
-    <section class = portfolio>
+    <div class = portfolio>
         <div class="container">
             <div class="row">
-               <div class= "col-sm-3">
-                   <img src = "images/portfolio/work1.jpg">
-                </div>
-        
-                <div class="col-sm-3">
-                  <img src = "images/portfolio/work2.jpg">
-                </div>
-        
-                <div class="col-sm-3">
-                  <img src = "images/portfolio/work3.jpg">
+
+                <div class = "col-sm-3 work1">
+
                 </div>
 
-                <div class="col-sm-3">
-                    <img src = "images/portfolio/work4.jpg">
-                </div>
-            
-                <div class = "row">
-                    <div class="col-sm-3">
-                        <img src = "images/portfolio/work5.jpg">
-                    </div>
-    
-                    <div class="col-sm-3">
-                        <img src = "images/portfolio/work6.jpg">
-                    </div>
-    
-                    <div class="col-sm-3">
-                        <img src = "images/portfolio/work7.jpg">
-                    </div>
-    
-                    <div class="col-sm-3">
-                        <img src = "images/portfolio/work8.jpg">
-                    </div>
-    
+                <div class = "col-sm-3 work2">
+                    
                 </div>
 
+                <div class = "col-sm-3 work3">
+                    
+                </div>
+
+                <div class = "col-sm-3 work4">
+                    
+                </div>
                 
+            </div>
+        
+            <div class = "row">
+
+                <div class = "col-sm-3 work5">
+                    
+                </div>
+
+                <div class = "col-sm-3 work6">
+                    
+                </div>
+
+                <div class = "col-sm-3 work7">
+                    
+                </div>
+
+                <div class = "col-sm-3 work8">
+                    
+                </div>               
         
             </div>
 
-    </section>
+        </div>
+
+    </div>
+
 
     <section class = "contact-us">
-        <div class="form-group">
+        <form class = "form-inline">
+
+           <div class = "form-group">
+               <label for = "name"> Name... </label>
+               <input type = "name" clas = "form-control" id = "name">
+           </div> 
+            
+           <div class = "form-group">
+                <label for = "email"> Email... </label>
+                <input type = "email" clas = "form-control" id = "email">
+           </div>
+        </form>
+
+        <form>
             <label for="text-area">Your message here..."</label>
             <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="10"></textarea>
-        </div>
+        </form>
           
     </section>
 
     <footer>
-        <img src ="images/social_icons/behance.png">
-        <img src = "images/social_icons/dribble.png">
-        <img src = "images/social_icons/facebook.png">
-        <img src = "images/social_icons/flickr.png">
-        <img src = "images/social_icons/g_plus.png">
+        <img src = "images/social_icons/twitter.png" alt ="twitter">
+        <img src = "images/social_icons/dribble.png" alt = "dribble">
+        <img src = "images/social_icons/facebook.png" alt = "facebook">
+        <img src = "images/social_icons/g_plus.png" alt = "g-plus">
+        <img src = "images/social_icons/skype.png" alt = " skype">
+        <img src = "images/social_icons/stumble_upon.png" alt = "stumble">
+        <img src ="images/social_icons/behance.png" alt = "benhance"> 
+        <img src = "images/social_icons/flickr.png">  
         <img src = "images/social_icons/pinterest.png">
-        <img src = "images/social_icons/skype.png">
-        <img src = "images/social_icons/stumble_upon.png">
-        <img src = "images/social_icons/twitter.png">
         <img src = "images/social_icons/you_tube.png">
 
         <h4> DELANI STUDIO <br> 2019</h4>
