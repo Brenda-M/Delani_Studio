@@ -118,3 +118,13 @@
     background-repeat: no-repeat;
     height: 500px;
 }
+
+textarea{
+    display: block;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.icons{
+    
+}
