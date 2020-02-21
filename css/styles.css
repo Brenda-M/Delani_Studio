@@ -1,6 +1,27 @@
 .jumbotron{
-    background-image: url("../images/backgrounds/h_img.jpg");
-    align-items: center;
-   
+    background: url("../images/backgrounds/h_img.jpg");
+    text-align: center;
+    color: white;   
 }
+
+
+
+#slogan{
+    margin: 20px;
+    padding: 0px 20px;
+}
+
+#mouse{
+    padding: 60px;
+}
+
+.about-us{
+    text-align: center;
+}
+
+width: 100%;
+  height: 600px;
+  padding: 0px 20px;
+  margin-right: -15px;
+  margin-left: -15px;
 
