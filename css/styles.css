@@ -18,81 +18,63 @@
 
 .work1 {
     background-image: url("../images/portfolio/work1.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-color: white;
-    height: 200px;
-    width: 130px;
+  
     
 }
 
 .work2 {
     background-image: url("../images/portfolio/work2.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 130px;
-    
+  
 }
 
 .work3 {
     background-image: url("../images/portfolio/work3.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 130px;
+  
     
     
 }
 
 .work4 {
     background-image: url("../images/portfolio/work4.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 130px;
+  
    
 }
 
 .work5 {
     background-image: url("../images/portfolio/work5.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 130px;
+
   
 }
 
 .work6 {
     background-image: url("../images/portfolio/work6.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 130px;
+ 
   
   
 }
 
 .work7 {
     background-image: url("../images/portfolio/work7.jpg");
+   
+   
+}
+
+.col-sm-3{
     background-size: contain;
     background-repeat: no-repeat;
+    border-color: white;
+    margin-bottom: 40px;
     height: 200px;
     width: 130px;
-   
-   
 }
 
 .work8 {
     background-image: url("../images/portfolio/work8.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 200px;
-    width: 130px;
+    
 
 }
 .port{
-    margin-bottom: 40px;
+    
 }
 
 
