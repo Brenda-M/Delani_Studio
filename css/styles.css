@@ -125,6 +125,8 @@ textarea{
     margin-right: 80px;
 }
 
-.icons{
-    
+
+.feedback{
+    display: block;
+    margin: 30px;
 }
