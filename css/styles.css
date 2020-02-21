@@ -1,69 +1,83 @@
-*{
-    margin: 0;
-    padding:0;
-    box-sizing: border-box;
-    list-style: none; 
-}
 
 
 .jumbotron{
     background: url("../images/backgrounds/h_img.jpg");
-    text-align: center;
     color: white;   
 }
 
+
+.what-we-do{
+    margin: 40px;
+}  
+
+
 .work1 {
     background-image: url("../images/portfolio/work1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-color: white;
     height: 250px;
-    margin: 10px;
+    margin-left: -1px;
     
 }
 
 .work2 {
     background-image: url("../images/portfolio/work2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 250px;
-    margin: 10px;
+    
 }
 
 .work3 {
     background-image: url("../images/portfolio/work3.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 250px;
-    margin: 10px;
+    
     
 }
 
 .work4 {
     background-image: url("../images/portfolio/work4.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 250px;
-    margin: 10px;
    
 }
 
 .work5 {
     background-image: url("../images/portfolio/work5.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 250px;
-    margin: 10px;
+  
 }
 
 .work6 {
     background-image: url("../images/portfolio/work6.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 250px;
-    margin: 10px;
+  
   
 }
 
 .work7 {
     background-image: url("../images/portfolio/work7.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 250px;
-    margin: 10px;
+   
    
 }
 
 .work8 {
     background-image: url("../images/portfolio/work8.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     height: 250px;
-    margin: 10px;
-    
+
 }
 
 
@@ -77,20 +91,10 @@
     padding: 60px;
 }
 
-.about-us{
-    text-align: center;
-}
 
 .services{
-    text-align: center;
     background-image: url("../images/backgrounds/s_image.jpg");
     padding: 40px;
     color: white;
 }
-
-width: 100%;
-  height: 600px;
-  padding: 0px 20px;
-  margin-right: -15px;
-  margin-left: -15px;
 
