@@ -2,7 +2,10 @@
 
 .jumbotron{
     background: url("../images/backgrounds/h_img.jpg");
-    color: white;   
+    background-size: cover;
+   
+    color: white;  
+   
 }
 
 
