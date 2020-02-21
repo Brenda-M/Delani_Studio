@@ -18,8 +18,7 @@
 
 .work1 {
     background-image: url("../images/portfolio/work1.jpg");
-  
-    
+      
 }
 
 .work2 {
@@ -29,34 +28,29 @@
 
 .work3 {
     background-image: url("../images/portfolio/work3.jpg");
-  
-    
     
 }
 
 .work4 {
-    background-image: url("../images/portfolio/work4.jpg");
-  
-   
+    background-image: url("../images/portfolio/work4.jpg");  
 }
 
 .work5 {
     background-image: url("../images/portfolio/work5.jpg");
-
   
 }
 
 .work6 {
-    background-image: url("../images/portfolio/work6.jpg");
- 
-  
-  
+    background-image: url("../images/portfolio/work6.jpg");  
 }
 
 .work7 {
-    background-image: url("../images/portfolio/work7.jpg");
-   
-   
+    background-image: url("../images/portfolio/work7.jpg");  
+}
+
+.work8 {
+    background-image: url("../images/portfolio/work8.jpg");    
+
 }
 
 .col-sm-3{
@@ -68,13 +62,8 @@
     width: 130px;
 }
 
-.work8 {
-    background-image: url("../images/portfolio/work8.jpg");
-    
-
-}
-.port{
-    
+.title{
+    margin: 40px;
 }
 
 
