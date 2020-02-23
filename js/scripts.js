@@ -51,9 +51,9 @@ $(document).ready(function () {
     let message = $("textarea#message").val();
 
     if ($("input#name").val() && $("input#email").val()) {
-      alert("Thank you for contacting us" + name + "One of our representatives will get back to you as soon as possible.");
+      document.getElementById('display').innerText = "Thank you for contacting us" + name + "One of our representatives will get back to you as soon as possible."
     } else {
-      alert("Name and email must be filled");
+      document.getElementById('display').innerText = "Name and email must be filled";
     }
   });
 });

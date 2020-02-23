@@ -39,43 +39,39 @@ h3{
 
 #work1 {
     background-image: url("../images/portfolio/work1.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
 }
   
 #work2 {
     background-image: url("../images/portfolio/work2.jpg");
-    background-size: cover;
 }
   
 #work3 {
     background-image: url("../images/portfolio/work3.jpg");
-    background-size: cover;
 }
   
 #work4 {
     background-image: url("../images/portfolio/work4.jpg");
-    background-size: cover;
 }
   
 #work5 {
     background-image: url("../images/portfolio/work5.jpg");
-    background-size: cover;
 }
   
 #work6 {
     background-image: url("../images/portfolio/work6.jpg");
-    background-size: cover;
 }
   
 #work7 {
     background-image: url("../images/portfolio/work7.jpg");
-    background-size: cover;
 }
 
 #work8 {
     background-image: url("../images/portfolio/work8.jpg");
+}
+
+.col-sm-3{
     background-size: cover;
+  
 }
 
 .companyTitle{
@@ -138,5 +134,9 @@ textarea{
 .icons {
     margin-top: 30px;
 }
-  
+
+#display{
+    color: white;
+    font-size: 25px;
+}
 
