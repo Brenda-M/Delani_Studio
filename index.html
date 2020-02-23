@@ -7,7 +7,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href= "css/styles.css" rel="stylesheet" type="text/css">
     <title>Delani Studio</title>
-    <script   src="https://code.jquery.com/jquery-3.4.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+    <script   src="js/jquery-3.4.1.js" integrity=" " crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
 </head>
 
@@ -66,19 +66,23 @@
                 <div class="row">
 
                     <div class = "col-md-4">
-                        <img src = "images/services_icons/design_icon.png" alt ="design-logo"id = "clicakble">
-                        
-                        <p class = "">Our design practice offers a full range of services including brand 
+                        <h5 id = "inlineDev"><img src = "images/services_icons/design_icon.png" alt ="design-logo" id ="designLogo">DESIGN</h5>
+    
+                        <div class = devLogoToggle>
+                            <h3>DESIGN</h3>
+                            <p class = "">Our design practice offers a full range of services including brand 
                             strategy, interaction and visual design and user experience testing.
                             Throughout your project, our designers create and implement visual design 
                             and workflows, solicit user feedback and work with you to make sure what gets 
                             built is what is needed.
-                        </p>
+                            </p>
+
+                        </div>    
                     </div>
 
-                    <div class = "col-md-4">
-                        <img src = "images/services_icons/dev_icon.png" alt = "development-logo" id = "clickable">
-                       
+                    <div class = "col-md-4 clickable">
+                        <img src = "images/services_icons/dev_icon.png" alt = "development-logo" class = "" id = "developmentLogo">
+                        <h5>DEVELOPMENT</h5>
                         <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
                             They collaborate with your team to write, and improve code on a daily basis, using proven 
                             practices such as test-driven development and pair programming.
@@ -86,9 +90,9 @@
                         </p>
                     </div>
 
-                    <div class = "col-md-4">
-                        <img src = "images/services_icons/product_icon.png" alt ="product-management-logo" id = "clickable">
-
+                    <div class = "col-md-4 clickable">
+                        <img src = "images/services_icons/product_icon.png" alt ="product-management-logo" class = "" id = "productLogo">
+                        <h5> PRODUCT MANAGEMENT</h5>
                         <p>Planning and development is iterative. Because we are constantly coding and testing, 
                             the products we build are always ready to go live. 
                             This iterative process allows for changes as business requirements evolve.
@@ -153,32 +157,28 @@
         </div>
 
         <div class = "container-fluid contact-us">
-
             <h2 class = "title"> CONTACT US</h2>
             <form>
 
-                <div class = "row">
-                    <div class = "col-6">
-                        <input type = "name" clas = "form-control" id = "name" placeholder="Name..">
-                    </div>
+              
+                    
+                        <input type = "name" class = "form-control" id = "name" placeholder="Name..">
+                  
 
-                    <div class = "col-6">
+                   
                         <input type = "email" clas = "form-control" id = "email" placeholder=" Email..">
-                    </div>
-                </div>
-
-                <div class = "row">
-                    <div class = "col-8 feedback">
+                  
+            
                         <textarea class="form-control" id="text-area" placeholder = "Your message here"></textarea>
-                    </div>
-                </div>
+                  
+
+                <button type = "submit">SUBMIT</button>
             </form>
 
             
 
         </div>
         
-</div>
 
     <footer>
         <div class = "icons">
