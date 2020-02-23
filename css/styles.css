@@ -96,6 +96,7 @@
 
 form {
     display: inline-block;
+    resize: none;
 }
 
 .feedback{
