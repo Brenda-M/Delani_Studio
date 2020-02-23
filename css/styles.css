@@ -89,13 +89,14 @@
     background-repeat: no-repeat;
     height: 500px;
 }
-
-textarea{
-    display: block;
-    margin-left: 80px;
-    margin-right: 80px;
+.col-md-6{
+    width: 10px;
 }
 
+
+form {
+    display: inline-block;
+}
 
 .feedback{
     display: block;
