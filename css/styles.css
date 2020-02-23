@@ -1,12 +1,25 @@
-
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
 
 .jumbotron{
     background: url("../images/backgrounds/h_img.jpg");
     background-size: cover;
-    color: white;  
-   
+    color: white; 
+    font-family: 'Merriweather';    
 }
 
+
+#slogan{
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+
+#mouse, #logo{
+    margin-top: 100px;
+    padding-top: 50px;
+}
 
 .what-we-do{
     margin: 40px;
@@ -68,14 +81,6 @@
 }
 
 
-#slogan{
-    margin: 20px;
-    padding: 0px 20px;
-}
-
-#mouse{
-    padding: 60px;
-}
 
 
 .services{
