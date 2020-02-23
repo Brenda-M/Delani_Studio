@@ -64,7 +64,7 @@
 
 .title{
     font-weight: bold;
-
+    padding: 10px;
 }
 
 
@@ -82,6 +82,7 @@
     background-image: url("../images/backgrounds/s_image.jpg");
     padding: 40px;
     color: white;
+    font-weight: 600;
 }
 
 .contact-us{
@@ -93,8 +94,15 @@
 }
 
 
-
 form {
     display: inline-block;
-    resize: none;
+    
+   
 }
+textarea{
+    resize: none;
+    border: 1px solid white;
+    margin: 40px 40px;
+    
+}
+
