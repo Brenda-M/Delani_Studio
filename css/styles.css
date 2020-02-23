@@ -3,13 +3,12 @@
     padding: 0;
 }
 
-.jumbotron{
+.jumbotron {
     background: url("../images/backgrounds/h_img.jpg");
     background-size: cover;
-    color: white; 
-    font-family: 'Merriweather';    
+    color: white;
+    font-family: 'Merriweather';  
 }
-
 
 #slogan{
     margin-top: 20px;
@@ -21,67 +20,87 @@
     padding-top: 50px;
 }
 
+.about-us, .services, {
+    font-family: 'Slabo 27px';
+    font-size: 18px;
+    line-height: 1.8;
+}
+
 .what-we-do{
-    margin: 40px;
+    margin: 40px auto;
 }  
 
 .portfolio{
     margin-bottom: 80px;
 }
 
+.row {
+    justify-content: center;
+}
+
 #work1 {
     background-image: url("../images/portfolio/work1.jpg");
-      
+    background-size: cover;
 }
-
+  
 #work2 {
     background-image: url("../images/portfolio/work2.jpg");
-  
+    background-size: cover;
 }
-
+  
 #work3 {
     background-image: url("../images/portfolio/work3.jpg");
-    
+    background-size: cover;
 }
-
+  
 #work4 {
-    background-image: url("../images/portfolio/work4.jpg");  
+    background-image: url("../images/portfolio/work4.jpg");
+    background-size: cover;
 }
-
+  
 #work5 {
     background-image: url("../images/portfolio/work5.jpg");
+    background-size: cover;
+}
   
-}
-
 #work6 {
-    background-image: url("../images/portfolio/work6.jpg");  
+    background-image: url("../images/portfolio/work6.jpg");
+    background-size: cover;
 }
-
+  
 #work7 {
-    background-image: url("../images/portfolio/work7.jpg");  
+    background-image: url("../images/portfolio/work7.jpg");
+    background-size: cover;
 }
 
 #work8 {
-    background-image: url("../images/portfolio/work8.jpg");    
+    background-image: url("../images/portfolio/work8.jpg");
+    background-size: cover;
+}
+
+.companyTitle{
+    display: none;
+    opacity: 0.8;
+    background-color: #000;
+    font-size: 30px;
+    padding-top: 50px;
+    height: 100%;
+    color: #FF00FF;
 
 }
 
-.col-sm-3{
-    background-size: contain;
-    background-repeat: no-repeat;
-    border-color: white;
-    margin-bottom: 40px;
+.hoverElement {
+    width: 300px;
     height: 200px;
-    width: 130px;
+    margin-bottom: 40px;
+    margin-right: 10px;
+    padding: 0;
 }
 
 .title{
     font-weight: bold;
     padding: 10px;
 }
-
-
-
 
 .services{
     background-image: url("../images/backgrounds/s_image.jpg");
@@ -94,31 +113,30 @@
     background-image: url("../images/backgrounds/c_image.jpg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 500px;
-  
+    height: 500px; 
 }
 
-
-form {
-    display: inline-block;
-    
-   
+.form {
+    width: 450px;
+    margin: 0 auto;  
 }
+
 textarea{
     resize: none;
     border: 1px solid white;
-    margin: 40px 40px;
-    
+    margin: 40px 40px;   
 }
 
-.companyTitle{
-    display: none;
-    opacity: 0.5;
-    background-color: #C0C0C0;
-    font-size: 30px;
-    padding: 30px;
-    height: 100%;
-    color: #FF00FF;
-
+imageSection > img {
+    height: 80px;
+    margin-bottom: 10px;
 }
+.imageSection:hover {
+    cursor: pointer;
+}
+
+.icons {
+    margin-top: 30px;
+}
+  
 

@@ -1,48 +1,59 @@
-$(document).ready (function(){
+$(document).ready(function () {
+  // Hide the descriptions in the what we do section on initial load
+  $("#designDescription").hide();
+  $("#developmentDescription").hide();
+  $("#productDescription").hide();
 
-//creating toggle on what we do section
-  $(".designIcon").click(function (){
-    $("#hiddenDesign").hide();
-    $(".designIconToggle").show();
+  // Crreating toggle functionality on what we do section
+  $("#designImage").click(function () {
+    $("#designImage").hide();
+    $("#designDescription").show();
   });
 
-  $(".designIconToggle").click(function(){
-    $(".designIconToggle").hide();
-    ("#hiddenDesign").show();
+  $("#designDescription").click(function () {
+    $("#designDescription").hide();
+    $("#designImage").show();
   });
-  
 
-//hover effect on portfolio section
+  $("#developmentImage").click(function () {
+    $("#developmentImage").hide();
+    $("#developmentDescription").show();
+  });
 
-  $('.hoverElement').hover(function(){
-    $('.companyTitle',this).slideToggle('fast');
- }, function(){
-    $('.companyTitle',this).slideToggle('fast');
- });
+  $("#developmentDescription").click(function () {
+    $("#developmentDescription").hide();
+    $("#developmentImage").show();
+  });
 
+  $("#productImage").click(function () {
+    $("#productImage").hide();
+    $("#productDescription").show();
+  });
 
+  $("#productDescription").click(function () {
+    $("#productDescription").hide();
+    $("#productImage").show();
+  });
 
-//Form Validation
-$("#blanks form").submit (function(event){
+  // Hover effect on portfolio section
+  $('.hoverElement').hover(function () {
+    $('.companyTitle', this).slideToggle('fast');
+  }, function () {
+    $('.companyTitle', this).slideToggle('fast');
+  });
 
-  let name = $("input#name").val();
-  let email = $("input#email").val();
-  let message = $("textarea#message").val();
+  // Form Validation
+  $("#blanks form").submit(function (event) {
+    event.preventDefault();
 
-  if ($("input#name").val() && $("input#email").val()){
+    let name = $("input#name").val();
+    let email = $("input#email").val();
+    let message = $("textarea#message").val();
+
+    if ($("input#name").val() && $("input#email").val()) {
       alert("Thank you for contacting us" + name + "One of our representatives will get back to you as soon as possible.");
-  }
-  else {
+    } else {
       alert("Name and email must be filled");
-  }
-
+    }
   });
-
-  event.preventDefault();
-
 });
-
-
-
-
-
