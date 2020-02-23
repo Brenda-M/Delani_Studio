@@ -16,39 +16,39 @@
     margin-bottom: 80px;
 }
 
-.work1 {
+#work1 {
     background-image: url("../images/portfolio/work1.jpg");
       
 }
 
-.work2 {
+#work2 {
     background-image: url("../images/portfolio/work2.jpg");
   
 }
 
-.work3 {
+#work3 {
     background-image: url("../images/portfolio/work3.jpg");
     
 }
 
-.work4 {
+#work4 {
     background-image: url("../images/portfolio/work4.jpg");  
 }
 
-.work5 {
+#work5 {
     background-image: url("../images/portfolio/work5.jpg");
   
 }
 
-.work6 {
+#work6 {
     background-image: url("../images/portfolio/work6.jpg");  
 }
 
-.work7 {
+#work7 {
     background-image: url("../images/portfolio/work7.jpg");  
 }
 
-.work8 {
+#work8 {
     background-image: url("../images/portfolio/work8.jpg");    
 
 }
@@ -104,5 +104,17 @@ textarea{
     border: 1px solid white;
     margin: 40px 40px;
     
+}
+
+.companyTitle{
+    display: none;
+    opacity: 0.5;
+    background-color: #C0C0C0;
+    font-size: 40px;
+    padding: 40px;
+    height: 100%;
+    width: 100%;
+    color: #FF00FF; 
+    position: relative;
 }
 

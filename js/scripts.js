@@ -1,14 +1,12 @@
 $(document).ready (function(){
 
-  //hover effect on portfolio section
+//hover effect on portfolio section
 
-  $('.col-md-3').hover(function(){
+  $('.hoverElement').hover(function(){
     $('.companyTitle',this).slideToggle('slow');
  }, function(){
     $('.companyTitle',this).slideToggle('slow');
  });
-
-
 
 
 
