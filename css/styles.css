@@ -29,18 +29,18 @@
 .what-we-do{
     margin: 40px auto;
 }  
+h3{
+    font-weight: bold;
+}
 
 .portfolio{
     margin-bottom: 80px;
 }
 
-.row {
-    justify-content: center;
-}
-
 #work1 {
     background-image: url("../images/portfolio/work1.jpg");
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
   
 #work2 {
@@ -127,7 +127,7 @@ textarea{
     margin: 40px 40px;   
 }
 
-imageSection > img {
+.imageSection > img {
     height: 80px;
     margin-bottom: 10px;
 }
