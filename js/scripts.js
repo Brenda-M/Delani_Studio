@@ -1,11 +1,23 @@
 $(document).ready (function(){
 
+//creating toggle on what we do section
+  $(".designIcon").click(function (){
+    $("#hiddenDesign").hide();
+    $(".designIconToggle").show();
+  });
+
+  $(".designIconToggle").click(function(){
+    $(".designIconToggle").hide();
+    ("#hiddenDesign").show();
+  });
+  
+
 //hover effect on portfolio section
 
   $('.hoverElement').hover(function(){
-    $('.companyTitle',this).slideToggle('slow');
+    $('.companyTitle',this).slideToggle('fast');
  }, function(){
-    $('.companyTitle',this).slideToggle('slow');
+    $('.companyTitle',this).slideToggle('fast');
  });
 
 
