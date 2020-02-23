@@ -63,7 +63,8 @@
 }
 
 .title{
-    margin: 40px;
+    font-weight: bold;
+
 }
 
 
@@ -88,18 +89,12 @@
     background-size: contain;
     background-repeat: no-repeat;
     height: 500px;
+  
 }
-.col-md-6{
-    width: 10px;
-}
+
 
 
 form {
     display: inline-block;
     resize: none;
-}
-
-.feedback{
-    display: block;
-    margin: 40px;
 }
