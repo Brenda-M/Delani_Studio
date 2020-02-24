@@ -49,16 +49,5 @@ $(document).ready(function () {
     let name = $("input#name").val();
     let email = $("input#email").val();
     let message = $("textarea#message").val();
-<<<<<<< HEAD
-
-=======
-    if($("input#name").val() === ''&& $("input#email").val()==='') {
-      document.getElementById('display').innerText = "Name and email must be filled";
-      return;
-    }
-    if ($("input#name").val() !== '') {
-      document.getElementById('display').innerText = "Thank you for contacting us" + name + "One of our representatives will get back to you as soon as possible."
-    }
->>>>>>> 1ecc445fc7d85db94cd639f9a7d58d6393f49066
   });
 });
