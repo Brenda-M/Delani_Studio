@@ -44,8 +44,7 @@ $(document).ready(function () {
 
   // Form Validation
   $("#submit").click(function () {
-    event.preventDefault();
-  
+    
     let name = $("input#name").val();
     let email = $("input#email").val();
     let message = $("textarea#message").val();
