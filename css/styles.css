@@ -28,7 +28,8 @@
 
 .what-we-do{
     margin: 40px auto;
-}  
+} 
+
 h3{
     font-weight: bold;
 }
@@ -74,10 +75,8 @@ h3{
     background-repeat: no-repeat;
     border-color: white;
     height: 200px;
-    width: 130px;
- 
+    width: 130px; 
 }
-
 
 .companyTitle{
     display: none;
@@ -88,7 +87,6 @@ h3{
     height: 100%;
     width: 86%;
     color: #FF00FF;
-
 }
 
 .hoverElement {
@@ -114,18 +112,14 @@ h3{
     background-image: url("../images/backgrounds/c_image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.9;
-  
-  
+    opacity: 0.9;  
 }
-
-
-
 
 .imageSection > img {
     height: 80px;
     margin-bottom: 10px;
 }
+
 .imageSection:hover {
     cursor: pointer;
 }
@@ -153,10 +147,14 @@ textarea{
     color: white;
 }
 
-
 .icons{
     margin-top: 40px;
 }
+
 .submitButton{
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+}
+
+#display{
+    color: red;
 }

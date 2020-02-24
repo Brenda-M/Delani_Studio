@@ -43,11 +43,17 @@ $(document).ready(function () {
   });
 
   // Form Validation
-  $(form).submit(function () {
+  $("#submit").click(function () {
     event.preventDefault();
-
+  
     let name = $("input#name").val();
     let email = $("input#email").val();
     let message = $("textarea#message").val();
+    if (name && email !== null) {
+      alert ("Hey " + name + ", Thanks for reaching out, we'll get back to you shortly...cheers");
+  }
+    else {
+      alert("Please provide your correct name and email!")
+  }
   });
 });
