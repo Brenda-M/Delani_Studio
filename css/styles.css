@@ -40,42 +40,50 @@ h3{
 
 #work1 {
     background-image: url("../images/portfolio/work1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
   
 #work2 {
     background-image: url("../images/portfolio/work2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
   
 #work3 {
     background-image: url("../images/portfolio/work3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
   
 #work4 {
     background-image: url("../images/portfolio/work4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
   
 #work5 {
     background-image: url("../images/portfolio/work5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
   
 #work6 {
     background-image: url("../images/portfolio/work6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
   
 #work7 {
     background-image: url("../images/portfolio/work7.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-
+  
 #work8 {
     background-image: url("../images/portfolio/work8.jpg");
-}
-
-.col-md-3{
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    border-color: white;
-    height: 200px;
-    width: 130px; 
 }
 
 .companyTitle{
@@ -85,15 +93,44 @@ h3{
     font-size: 30px;
     padding-top: 30px;
     height: 100%;
-    width: 86%;
     color: #FF00FF;
 }
 
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+  
+.portfolio-container > .hoverElement {
+    width: 24%;
+}
+
 .hoverElement {
-    width: 50px;
     height: 200px;
     margin-bottom: 20px;
+    margin-right: 5px;
     padding: 0;
+}
+  
+@media only screen and (min-width: 0px) and (max-width: 479px) {
+    .portfolio-container > .hoverElement {
+      width: 100%;
+      margin-right: 0;
+    }
+}
+  
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .portfolio-container > .hoverElement {
+      width: 49%;
+    }
+}
+  
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .portfolio-container > .hoverElement {
+      width: 32%;
+    }
 }
 
 .title{
