@@ -43,17 +43,12 @@ $(document).ready(function () {
   });
 
   // Form Validation
-  $("#blanks form").submit(function (event) {
+  $(form").submit(function () {
     event.preventDefault();
 
     let name = $("input#name").val();
     let email = $("input#email").val();
     let message = $("textarea#message").val();
 
-    if ($("input#name").val() && $("input#email").val()) {
-      document.getElementById('display').innerText = "Thank you for contacting us" + name + "One of our representatives will get back to you as soon as possible."
-    } else {
-      document.getElementById('display').innerText = "Name and email must be filled";
-    }
   });
 });

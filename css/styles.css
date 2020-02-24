@@ -69,11 +69,15 @@ h3{
     background-image: url("../images/portfolio/work8.jpg");
 }
 
-.col-sm-2{
+.col-md-3{
     background-size: contain;
     background-repeat: no-repeat;
-  
+    border-color: white;
+    height: 200px;
+    width: 130px;
+ 
 }
+
 
 .companyTitle{
     display: none;
@@ -81,16 +85,16 @@ h3{
     background-color: #000;
     font-size: 30px;
     padding-top: 30px;
-    height: 78%;
+    height: 100%;
+    width: 86%;
     color: #FF00FF;
 
 }
 
 .hoverElement {
-    width: 300px;
+    width: 50px;
     height: 200px;
-    margin-bottom: 40px;
-    margin-right: 10px;
+    margin-bottom: 20px;
     padding: 0;
 }
 
@@ -108,21 +112,15 @@ h3{
 
 .contact-us{
     background-image: url("../images/backgrounds/c_image.jpg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    height: 500px; 
+    opacity: 0.9;
+  
+  
 }
 
-.form {
-    width: 450px;
-    margin: 0 auto;  
-}
 
-textarea{
-    resize: none;
-    border: 1px solid white;
-    margin: 40px 40px;   
-}
+
 
 .imageSection > img {
     height: 80px;
@@ -132,12 +130,33 @@ textarea{
     cursor: pointer;
 }
 
-.icons {
-    margin-top: 30px;
-}
-
 #display{
     color: white;
     font-size: 25px;
 }
 
+.form{
+    width: 0 auto;
+    display: inline-block;
+    color: white;
+}
+
+textarea{
+    resize: none;
+    border: 1px solid white;
+    margin-top: 30px;
+    margin-bottom: 20px; 
+}
+
+#email, #name, #message{
+    background: transparent;
+    color: white;
+}
+
+
+.icons{
+    margin-top: 40px;
+}
+.submitButton{
+    margin-bottom: 20px;
+}

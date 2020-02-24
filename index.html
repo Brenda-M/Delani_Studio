@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
     <title>Delani Studio</title>
-    <script   src="js/jquery-3.4.1.js" integrity=" " crossorigin="anonymous"></script>
+    <script   src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
 </head>
 
@@ -107,80 +107,83 @@
         </div>
     </div>
 
-    <div class = "container portfolio">
+    <div class = "container">
         <h2 class = "title">PORTFOLIO</h2>
 
         <div class="row">
-            <div class = "col-sm-2"></div>
+           
 
-            <div class = "col-sm-2 hoverElement" id= "work1"> 
+            <div class = "col-md-3 hoverElement" id= "work1"> 
                 <div class="companyTitle">Delani <br> Studio</div>
             </div>
 
-            <div class = "col-sm-2 hoverElement" id= "work2">
+            <div class = "col-md-3 hoverElement" id= "work2">
                 <div class="companyTitle">Delani <br> Studio</div>
             </div>
 
-            <div class = "col-sm-2 hoverElement" id = "work3">
+            <div class = "col-md-3 hoverElement" id = "work3">
                 <div class="companyTitle">Delani <br> Studio</div>
             </div>
 
-            <div class = "col-sm-2 hoverElement" id = "work4">
+            <div class = "col-md-3 hoverElement" id = "work4">
                 <div class="companyTitle">Delani <br> Studio</div>
             </div>  
             
-            <div class = "col-sm-2"></div>
+           
         </div>
             
         <div class = "row">
-            <div class = "col-sm-2"></div>
+        
 
-            <div class = "col-sm-2 hoverElement" id = "work5">
+            <div class = "col-md-3 hoverElement" id = "work5">
                 <div class="companyTitle">Delani <br> Studio</div>
             </div>
 
-            <div class = "col-sm-2 hoverElement" id = "work6">
+            <div class = "col-md-3 hoverElement" id = "work6">
                 <div class="companyTitle">Delani <br> Studio</div>
             </div>
 
-            <div class = "col-sm-2 hoverElement" id = "work7">
+            <div class = "col-md-3 hoverElement" id = "work7">
                 <div class="companyTitle">Delani <br> Studio</div>
             </div>
 
-            <div class = "col-sm-2 hoverElement" id = "work8">
+            <div class = "col-md-3 hoverElement" id = "work8">
                 <div class="companyTitle">Delani <br> Studio</div>
             </div> 
-            
-            <div class = "col-sm-2"></div>
         </div>
     </div>
 
     <div class="container-fluid contact-us" id="blanks">
         <h2 class="title"> CONTACT US</h2>
     
-        <form class="form">
-            <div class="row">
-                <div class="col-md-6">
-                    <input type="text" class="form-control" placeholder="Name...">
+        <form class="form" action="https://gmail.us4.list-manage.com/subscribe/post?u=07b554c5d1930e68c35fc6480&amp;id=46f03e093a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+           
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" id = "name" name = "FNAME" placeholder="Name..." required>
+                    </div>
+        
+                    <div class="col-md-6">
+                        <input type="email" class="form-control" id = "email" name="EMAIL" placeholder="Email.." required>
+                    </div>
                 </div>
     
-                <div class="col-md-6">
-                    <input type="email" class="form-control" placeholder="Email..">
+            <div class="row">
+                <div class="col-md-12">
+                    <textarea class="form-control" id="message" rows = "10"  placeholder="Your message here" name="MMERGE2"></textarea>
                 </div>
             </div>
     
-          <div class="row">
-                <div class="col-md-12">
-                    <textarea class="form-control" id="message" placeholder="Your message here" rows="7"></textarea>
-                </div>
-          </div>
-    
-          <button type="submit" class="btn btn-primary submitButton">SUBMIT</button>
+            <button type="submit" class="btn btn-primary submitButton">SUBMIT</button>
+
+            <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+            </div> 
         </form>  
-        
-        <p id = "display"></p>
     </div>
-        
+
+  
     <footer>
         <div class = "icons">
             <img src = "images/social_icons/twitter.png" alt ="twitter">
@@ -194,11 +197,9 @@
             <img src = "images/social_icons/pinterest.png">
             <img src = "images/social_icons/you_tube.png">
         </div>
-        
+    </footer>
         <div>
-            <h5> DELANI STUDIO <br> 2019</h5>
+            <h7> DELANI STUDIO <br> 2019</h7>
         </div>
-        
-    </footer>   
 </body>
 </html>
