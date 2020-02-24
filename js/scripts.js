@@ -43,7 +43,7 @@ $(document).ready(function () {
   });
 
   // Form Validation
-  $(form").submit(function () {
+  $(form).submit(function () {
     event.preventDefault();
 
     let name = $("input#name").val();
