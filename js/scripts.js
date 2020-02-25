@@ -49,7 +49,7 @@ $(document).ready(function () {
     let email = $("input#email").val();
     let message = $("textarea#message").val();
     if (name && email !== null) {
-      alert ("Hey " + name + ", Thanks for reaching out, we'll get back to you shortly...cheers");
+      alert ("Hey " + name + ", Thank you for reaching out to us. One of our representatives will get back to you as soon as possible.");
   }
     else {
       alert("Please provide your correct name and email!")
