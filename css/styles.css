@@ -3,12 +3,31 @@
     padding: 0;
 }
 
+.jumbotron::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .3;
+}
+
 .jumbotron {
     background: url("../images/backgrounds/h_img.jpg");
     background-size: cover;
     color: white;
     font-family: 'Merriweather';  
+    position: relative;
 }
+
+.jumbotron > * {
+    z-index: 10;
+    position: relative;
+}
+
 
 #slogan{
     margin-top: 20px;
@@ -20,11 +39,28 @@
     padding-top: 50px;
 }
 
-.about-us, .services, {
+#mouse{
+    animation: mouse 2s infinite;
+}
+
+@keyframes mouse {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-55px);
+    }
+    60% {
+      transform: translateY(-45px);
+    }
+}
+
+.about-us, .services {
     font-family: 'Slabo 27px';
     font-size: 18px;
     line-height: 1.8;
 }
+
 
 .what-we-do{
     margin: 40px auto;
@@ -93,7 +129,7 @@ h3{
     font-size: 30px;
     padding-top: 30px;
     height: 100%;
-    color: #FF00FF;
+    color: #ad8544;
 }
 
 .portfolio-container {
@@ -143,14 +179,50 @@ h3{
     padding: 40px;
     color: white;
     font-weight: 600;
+    position: relative;
+}
+
+.services::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    left:0;
+    top:0;
+    opacity: .5;
+    background-color: #333;
+    position: absolute;
+}
+
+.services > * {
+    z-index: 10;
+    position: relative;
 }
 
 .contact-us{
     background-image: url("../images/backgrounds/c_image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    opacity: 0.9;  
+    position: relative;
 }
+
+.contact-us::before{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left:0;
+    opacity:.7;
+    position: absolute;
+    background-color: #333;
+}
+
+.contact-us > *{
+    z-index: 10;
+    position: relative;
+}
+
 
 .imageSection > img {
     height: 80px;
